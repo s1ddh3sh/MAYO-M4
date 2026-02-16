@@ -1,0 +1,50 @@
+2026-02-16 21:17:29,849 BoardTestCase INFO: Runnning mayo1 - m4f - test
+2026-02-16 21:17:29,849 Implementation INFO: Building mayo1 - m4f - test
+2026-02-16 21:17:31,142 Implementation DEBUG: make stdout output:
+Variable PLATFORM changed, forcing rebuild!
+  GEN     obj/.config.mk
+  GENLNK  obj/ldscript.ld
+  AS      obj/common/mps2/startup_MPS2.S.o
+  CC      obj/common/hal-mps2.c.o
+  CC      obj/common/randombytes.c.o
+  AR      obj/libpqm4hal.a
+  AR      obj/libpqm4hal-nornd.a
+  CC      elf/crypto_sign_mayo1_m4f_test.elf
+  OBJCOPY bin/crypto_sign_mayo1_m4f_test.bin
+2026-02-16 21:17:31,142 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo1_m4f_test.bin
+2026-02-16 21:17:31,470 BoardTestCase INFO: Test mayo1 - m4f - test Successful
+2026-02-16 21:17:31,470 BoardTestCase INFO: Runnning mayo1 - ref - test
+2026-02-16 21:17:31,470 Implementation INFO: Building mayo1 - ref - test
+2026-02-16 21:17:33,041 Implementation DEBUG: make stdout output:
+CC      elf/crypto_sign_mayo1_ref_test.elf
+  OBJCOPY bin/crypto_sign_mayo1_ref_test.bin
+2026-02-16 21:17:33,041 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo1_ref_test.bin
+2026-02-16 21:17:33,539 BoardTestCase INFO: Test mayo1 - ref - test Successful
+2026-02-16 21:17:33,540 BoardTestCase INFO: Runnning mayo2 - m4f - test
+2026-02-16 21:17:33,540 Implementation INFO: Building mayo2 - m4f - test
+2026-02-16 21:17:34,789 Implementation DEBUG: make stdout output:
+CC      elf/crypto_sign_mayo2_m4f_test.elf
+  OBJCOPY bin/crypto_sign_mayo2_m4f_test.bin
+2026-02-16 21:17:34,789 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo2_m4f_test.bin
+2026-02-16 21:17:35,080 BoardTestCase INFO: Test mayo2 - m4f - test Successful
+2026-02-16 21:17:35,080 BoardTestCase INFO: Runnning mayo2 - ref - test
+2026-02-16 21:17:35,091 Implementation INFO: Building mayo2 - ref - test
+2026-02-16 21:17:36,615 Implementation DEBUG: make stdout output:
+CC      elf/crypto_sign_mayo2_ref_test.elf
+  OBJCOPY bin/crypto_sign_mayo2_ref_test.bin
+2026-02-16 21:17:36,615 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo2_ref_test.bin
+2026-02-16 21:17:37,042 BoardTestCase INFO: Test mayo2 - ref - test Successful
+2026-02-16 21:17:37,042 BoardTestCase INFO: Runnning mayo3 - m4f - test
+2026-02-16 21:17:37,042 Implementation INFO: Building mayo3 - m4f - test
+2026-02-16 21:17:38,262 Implementation DEBUG: make stdout output:
+CC      elf/crypto_sign_mayo3_m4f_test.elf
+  OBJCOPY bin/crypto_sign_mayo3_m4f_test.bin
+2026-02-16 21:17:38,262 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo3_m4f_test.bin
+2026-02-16 21:17:39,188 BoardTestCase INFO: Test mayo3 - m4f - test Successful
+2026-02-16 21:17:39,188 BoardTestCase INFO: Runnning mayo3 - ref - test
+2026-02-16 21:17:39,188 Implementation INFO: Building mayo3 - ref - test
+2026-02-16 21:17:40,960 Implementation DEBUG: make stdout output:
+CC      elf/crypto_sign_mayo3_ref_test.elf
+  OBJCOPY bin/crypto_sign_mayo3_ref_test.bin
+2026-02-16 21:17:40,961 Platform INFO: Running QEMU: qemu-system-arm -M mps2-an386 -nographic -semihosting -kernel bin/crypto_sign_mayo3_ref_test.bin
+2026-02-16 21:17:42,207 BoardTestCase INFO: Test mayo3 - ref - test Successful
